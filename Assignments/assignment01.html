@@ -35,6 +35,11 @@ h2 {
 h3 {
   text-align: left;
   }
+img { margin: 30px 30px; } 
+.left {text-align: left;}
+.right {text-align: right;}
+   .textWrapLeft {float: left;}
+   .textWrapRight { float: right;}
   
 </style>
 </head>
@@ -49,6 +54,7 @@ h3 {
 
   
  <section>
+<h2>Header</h2>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
 labore et dolore magna aliqua. Nibh ipsum consequat nisl vel pretium. Aliquet lectus proin nibh 
@@ -58,10 +64,13 @@ nisl condimentum. Lectus quam id leo in. Enim praesent elementum facilisis leo v
   
     
     <section>
+<h2>Header</h2>
       
 <!-- First section with image aligned to the left and text wrap -->
-<img src="https://image.shutterstock.com/image-vector/empty-placeholder-image-icon-design-260nw-1366372628.jpg" alt="Place holder Image" ALIGN=”left” HSPACE=”50” VSPACE=”50”/>
-  <p>
+
+<img  src="https://image.shutterstock.com/image-vector/empty-placeholder-image-icon-design-260nw-1366372628.jpg" alt="Place holder Image"  />
+  
+<p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
   et dolore magna aliqua. Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Sodales neque sodales ut 
   etiam sit amet nisl. Nibh sed pulvinar proin gravida hendrerit. Mattis molestie a iaculis at erat pellentesque 
@@ -87,7 +96,7 @@ nisl condimentum. Lectus quam id leo in. Enim praesent elementum facilisis leo v
   adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh ipsum consequat nisl 
   vel pretium. Aliquet lectus proin nibh nisl condimentum. Lectus quam id leo in. Enim praesent elementum facilisis leo vel fringilla est.
   </p>
-  
+      
     </section>
     
     <!-- Second section w/ pic -->
@@ -95,8 +104,8 @@ nisl condimentum. Lectus quam id leo in. Enim praesent elementum facilisis leo v
   <h2>Header</h2>
   
     
-    
-        <img src="https://bulma.io/images/placeholders/480x640.png" alt="Place holder Image" ALIGN="left" HSPACE="50" VSPACE="50"/>
+    <div class="left">
+        <img CLASS="textWrapLeft" src="https://bulma.io/images/placeholders/480x640.png" alt="Place holder Image"  />
    
     
   <p>
@@ -119,11 +128,13 @@ nisl condimentum. Lectus quam id leo in. Enim praesent elementum facilisis leo v
   pulvinar mattis nunc. Morbi tristique senectus et netus. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Risus feugiat 
   in ante metus dictum at tempor commodo ullamcorper. Tempus quam pellentesque nec nam aliquam.
 </p>
+       </div>
     </section>
     
       
     <!-- 3rd section -->
     <section>
+<h3>Header</h3>
   <p>
     Tempus imperdiet nulla malesuada pellentesque elit eget gravida. Nisl vel pretium lectus quam id. Risus viverra adipiscing at 
     in tellus. Purus faucibus ornare suspendisse sed. Risus nullam eget felis eget nunc lobortis mattis. Tincidunt ornare massa eget 
@@ -140,11 +151,11 @@ nisl condimentum. Lectus quam id leo in. Enim praesent elementum facilisis leo v
   <section>
   <h2>Header</h2>
    
-    
+    <div class="right">
         
-            <img src="https://via.placeholder.com/640x360" alt="Place holder Image" ALIGN="right" HSPACE="50" VSPACE="50"/>  
+            <img CLASS="textWrapRight" src="https://via.placeholder.com/640x360" alt="Place holder Image"  />  
        
-          
+       
         <p> 
            Augue neque gravida in fermentum. Est ante in nibh mauris cursus mattis molestie a iaculis. 
           A pellentesque sit amet porttitor. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. 
@@ -171,10 +182,11 @@ nisl condimentum. Lectus quam id leo in. Enim praesent elementum facilisis leo v
           suspendisse sed nisi. Nunc mattis enim ut tellus elementum sagittis vitae et leo.
 
       </p> 
-    
+     </div>
     </section>
     <!-- 5th section -->
   <section>
+<h3>Header</h3>
   <p>
     Tempus imperdiet nulla malesuada pellentesque elit eget gravida. Nisl vel pretium lectus quam id. Risus viverra adipiscing at in
     tellus. Purus faucibus ornare suspendisse sed. Risus nullam eget felis eget nunc lobortis mattis. Tincidunt ornare massa eget 
@@ -239,7 +251,3 @@ nisl condimentum. Lectus quam id leo in. Enim praesent elementum facilisis leo v
 
 </body>
 </html>
-
-
-
-
