@@ -34,4 +34,8 @@ span {
   width: 100px;
   height: 50px;
   padding: 5px 20px;
+  border-style: solid; 
+  border-color: blue; 
+  border-width: 5px;
+  background-color: yellow;
 }
