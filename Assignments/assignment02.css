@@ -1,21 +1,21 @@
 /* --- pre-existing css --- */
-.stripey tr:nth-child(even) {
+tr:nth-child(even) {
   background-color: gray;
 }
-.stripey tr:nth-child(odd) {
+tr:nth-child(odd) {
   background-color: white;
 }
-.stripey th {
+ th  {
   color: white;
   background-color: black;
 }
-.mousey td:hover {
+td:hover {
   background-color: yellow;
 }
-.rightey td {
+ td {
   text-align: right;
 }
-input[type="text"].pinkey:focus {
+input[type="text"]:focus {
   background-color: pink;
 }
 body {
@@ -39,3 +39,31 @@ span {
   border-width: 5px;
   background-color: yellow;
 }
+.a {
+  display: inline;
+}
+.b {
+  display: block;
+}
+.c {
+  display: inline-block;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.dog {
+  bottom: 150px;
+ position: relative;
+  left: 5px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  background-color: limegreen;
+  opacity: .9;
+  padding: 5px;
+  font-size: 20px;
+}
+
