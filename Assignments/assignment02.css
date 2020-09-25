@@ -37,7 +37,7 @@ img[alt*="cat icon"] {
 img[alt*="dog icon"] {
   bottom: 150px;
   position: relative;
-  left: 5px;
+  left: -5px;
 }
 img[alt*="bird icon"] {
  position: absolute;
