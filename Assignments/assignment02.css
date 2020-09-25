@@ -1,23 +1,4 @@
-/* --- pre-existing css --- */
-tr:nth-child(even) {
-  background-color: gray;
-}
-tr:nth-child(odd) {
-  background-color: white;
-}
- th  {
-  color: white;
-  background-color: black;
-}
-td:hover {
-  background-color: yellow;
-}
- td {
-  text-align: right;
-}
-input[type="text"]:focus {
-  background-color: pink;
-}
+
 body {
   background-color: SkyBlue;
 }
@@ -75,5 +56,24 @@ nav {
   background-color: orange;
   position: relative;
 }
-
+/* --- pre-existing css --- */
+tr:nth-child(even) {
+  background-color: gray;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+ th  {
+  color: white;
+  background-color: black;
+}
+td:hover {
+  background-color: yellow;
+}
+ td {
+  text-align: right;
+}
+input[type="text"]:focus {
+  background-color: pink;
+}
 
