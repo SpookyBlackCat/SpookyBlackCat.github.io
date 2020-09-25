@@ -55,11 +55,13 @@ img[alt*="cat icon"] {
 }
 img[alt*="dog icon"] {
   bottom: 150px;
- position: relative;
+  position: relative;
   left: 5px;
 }
 img[alt*="bird icon"] {
  position: absolute;
+ top: 50px;
+ left: 250px;
 }
 nav {
   position: fixed;
