@@ -64,7 +64,7 @@ function over (elem) {
     elem.children[3].innerHTML = "-";
   }
   else {
-    elem.children[3].innerHTML = elem.children[2].innerHTML -                  elem.children[1].innerHTML;
+    elem.children[3].innerHTML = elem.children[2].innerHTML - elem.children[1].innerHTML;
 }
 }
 
@@ -81,7 +81,7 @@ function over (elem) {
 
 //function for total score
   function scoreTotal() {
-    //GAMEPLAN: create an array that has all the scores for each hole then      sum the array
+    //GAMEPLAN: create an array that has all the scores for each hole then sum the array
     elem[18].children[2].innerHTML = 0;
     let score = [];
     for(var i = 0; i < 19; i++) {
