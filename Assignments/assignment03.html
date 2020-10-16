@@ -13,7 +13,8 @@
 
        //assign "19" to totals id
        elem[18] = document.getElementById("totals");
-       console.log(elem[18]);
+       //console.log(elem[18]);
+       
        // assign add1, minus1, clear, over functions to the 
        //corresponding buttons for each hole
        for (let n = 0; n < 18; n++) {
@@ -109,6 +110,7 @@
        //function for par totals
        function parTotal() {
          //same as score totals but par column
+          elem[18].children[1].innerHTML = 0;
            let score = [];
            for(var i = 0; i < 19; i++) {
              if (elem[i].children[1].innerHTML == "-") {
