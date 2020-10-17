@@ -167,7 +167,7 @@ elem[19] = document.getElementById("totals");
 //console.log(elem[18]);
 // assign add1, minus1, clear, over functions to the 
 //corresponding buttons for each hole
-for (let n = 1; n < 19; n++) {
+for (let n = 1; n < 18; n++) {
 elem[n].children[4].children[0].onclick 
   = function(){add1(elem[n]);over(elem[n]);};
 elem[n].children[4].children[1].onclick 
@@ -182,7 +182,7 @@ elem[19].children[4].children[0].onclick
   = function(){scoreTotal();parTotal();overTotal();};
 //clear totals
 elem[19].children[4].children[1].onclick 
-  = function(){clear(elem[18]);parClear(elem[18]);};
+  = function(){clear(elem[19]);parClear(elem[19]);};
 
 
 
