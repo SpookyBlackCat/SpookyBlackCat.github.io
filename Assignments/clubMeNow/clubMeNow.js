@@ -129,6 +129,13 @@ function resetAllClubDistances() {
 function displayAbout() {
 	// your code here
 	window.location.href = "clubAbout.html";
+	<button onclick="goBack()">Back</button>
+
+	<script>
+	function goBack() {
+ 	 window.history.back();
+	}
+	</script>
 }
 
 // navigate to "Penalty Info" screen
