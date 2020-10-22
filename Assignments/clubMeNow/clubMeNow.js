@@ -30,10 +30,11 @@ clubDistanceEntry.html
 // initialize "clubs" array
 function loadClubDistances() {
 	let clubs;
+	let undoClubs;
 	// if "clubs" array already exists, load it from local storage
 	if (localStorage.getItem("clubs")) {
 		clubs = JSON.parse(localStorage.getItem("clubs"));
-		let undoClubs = JSON.parse(localStorage.getItem("clubs"));
+		undoClubs = JSON.parse(localStorage.getItem("clubs"));
 	}
 	// otherwise create new "clubs" array, using resetAllClubs()
 	else {
