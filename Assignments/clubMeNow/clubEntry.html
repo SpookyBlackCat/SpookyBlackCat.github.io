@@ -57,6 +57,9 @@
 		clubs[clubs.length] = [ 999, "c",  x,   0, 0, 0, 0, 36.0, 120, 100];
 		let str = JSON.stringify(clubs);
 		let Clubs = localStorage.setItem("clubs", str);
+		if(clubs.length > 14) {
+		alert("Warning: you are only allowed to carry 14 clubs in your golf bag in match play competition.");
+		}
 	}
 	
 	// navigate to club distance LIST screen
